@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
 import contractABI from './ProductOrderABI.json';
 
-const contractAddress = "0x6Ec8CbC06c968C25e7a0379a817EA7B24991CA00";
+const contractAddress = "0xb790a78AB9708273fc39b96cbd71F12B5C44e757";
 
 export default function ProductApp() {
   const [products, setProducts] = useState([]);
